@@ -48,6 +48,20 @@ programa {
     // C - CREATE (Adicionar Itens ao Carrinho)
     // =============================================
 
+      caso 1: 
+       limpa()
+       escreva(" --- CATÁLOGO DE PRODUTOS ---")
+       escreva("1. Camisa Esportiva (Estoque:", estoque_prod1,")- R$"preco")
+       escreva("2. Boné casual (Estoque: ", estoque_prod2,")- R$ ", preco")
+       escreva("3. Tênis de Corrida (Estoque: ", estoque_prod3,")- R$ ", preco")")
+       escreva("Escreva o produto que deseja adicionar:")
+       leia(opcao_crud == 1)
+
+       se (opcao_crud == 1)
+       { 
+        se (quandidade_temp > 0 e quantidade_temp <= estoque_prod1){ 
+      
+
        
   }
 }
