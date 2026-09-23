@@ -19,7 +19,7 @@ programa {
    // Variavel do CARRINHO DE COMPRAS (Qtds dos Itens)
    inteiro qtd_carrinho_prod1 = 0
    inteiro qtd_carrinho_prod2 = 0
-   inteiro qtd_carrinho_prod3 = 0
+     inteiro qtd_carrinho_prod3 = 0
 
     // Variáveis auxiliares para operações
     inteiro quantidade_tempo = 0
@@ -29,20 +29,30 @@ programa {
 
     // 1. LAÇO PRINCIPAL DO SISTEMA
     enquanto (opcao_menu_principal !=0){
-
       // Limpa a tela a cada iteração para manter o menu organizado
       limpa()
-        }
-            senao {
-      escreva("Produto inválido!")
-    }
-      escreva("Pressione ENTER para voltar ao menu...")
-      leia(tecla_pausa)
-      pare
-                                      
-    //=======================================
-    // R - READ (Visualizar o Carrinho)
-    // ======================================
-    caso 2 : 
-      limpa()
-      escreva("--- MEU CARRINHO DE COMPRAS ---")
+
+      escreva("=== BEM VINDO À NOSSA LOJA VIRTUAL ===")
+
+      escreva("------------------------------------------")
+      escreva("MENU PRINCIPAL")
+
+        escreva("1. Ver produtos e adicionar ao carrinho (CREATE)")
+
+        escreva("2. ver Meus Itens no carrinho (READ)")
+
+        escreva("3. alternar quantidade no carrinho (UPDATE)")
+
+        escreva("4. Remover Item do Carrinho (DELETE)")
+
+        escreva("0. Finalisar compra e ir ao pagamento")
+
+        escreva("Escolha uma opção: ")
+        leia(opcao_menu_principal)
+
+        escreva(opcao_menu_principal)
+        {
+            // =======================================================
+            // C - CREATE (Adicionar Itens oa Carrinho)
+            // =======================================================
+        
