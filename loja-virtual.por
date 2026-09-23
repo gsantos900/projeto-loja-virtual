@@ -125,4 +125,24 @@ programa {
 		caso 2:
 			limpa()
 			escreva("--- MEU CARRINHO DE COMPRAS ---")
-      
+      se (qtd_carrinho_prod1 ==0 e qtd_carrinho_prod2 ==0 e qtd_carrinho_prod3){
+     escreva(" Seu carrinho esta vazio.")
+  }senao{
+
+    se (qtd_carrinho_prod1 > o){
+
+      escreva("- ", qtd_carrinho_prod1, "x camisa esportiva" (R$ ", (qtd_")
+    }
+
+    se (qtd_carrinho_prod2 > o){
+
+      escreva("- ", qtd_carrinho_prod2, "x bone casual" (R$ ", (qtd_")
+    }
+
+    se (qtd_carrinho_prod3 > o){
+
+      escreva("- ", qtd_carrinho_prod3, "x tenis de corrida" (R$ ", (qtd_")
+    }
+
+  }
+  
