@@ -212,6 +212,18 @@ programa {
         escreva("Quantidade atualizada com sucesso!")
       } senao{
       estoque_prod3 = estoque_prod3 - qtd_carrinho_prod3
-      escreva("
+      escreva("Quantidade invalida ou acima do estoque disponivel!")
+
+
+          }
+        }senao{
+          escreva("opçao invalida!")
+        }
+
+
+        escreva("pressione ENTER para voltar ao menu...")
+        leia(tecla_pausa)
+        pare
 
     }
+     
