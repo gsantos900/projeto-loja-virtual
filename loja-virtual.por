@@ -303,4 +303,21 @@ programa {
                       valor_final = valor_total_bruto
                       pare
                    caso contratio:
-                      escreva("opção inválida! Processando valor normal.
+                      escreva("opção inválida! Processando valor normal.")
+
+          valor_desconto = 0.0
+          valor_final = valor_total_bruto
+
+          //pare
+    }
+
+    //3. NOTA FISCAL DETALHADA
+    limpa()
+    escreva("========================================")
+    escreva("NOTA FISCAL - LOJA VIRTUAL")
+    escreva("========================================")
+    escreva("Itens comprados:")
+
+    se (qtd_carrinh_prod1 > 0) {
+      escreva("- ", qtd_carrinh_prod1, "x Camisa Esportiva = R$ ", (qtd_carrinh_prod1))
+      
